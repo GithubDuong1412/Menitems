@@ -1,0 +1,103 @@
+{
+    "product_info": [
+      {
+        "id": "1",
+        "product_type": "hair styling",
+        "image": "../Assets//Image/Product_info/product_hair_style_img.webp",
+        "name": "Bộ lược tạo kiểu tóc chuyên dụng",
+        "price_sale": "120.000₫",
+        "price_origin": "199.000₫",
+        "percent_sale": "50%",
+        "evaluate_product": "28",
+        "quantity_sold": "24"
+      },
+      {
+        "id": "2",
+        "product_type": "hair styling",
+        "image": "../Assets//Image/Product_info/BST_Nature.webp",
+        "name": "Bộ sưu tập sáp dưỡng \"Vietnamese Specialty\" - Tự Hào Sản Vật Việt Nam",
+        "price_sale": "245.000₫",
+        "price_origin": "500.000₫",
+        "percent_sale": "51%",
+        "evaluate_product": "30",
+        "quantity_sold": "95"
+      },
+      {
+        "id": "3",
+        "product_type": "hair caring",
+        "image": "../Assets//Image/Product_info/dau_goi_duong.webp",
+        "name": "Dầu gội dưỡng ngăn gàu Menitems 250ml",
+        "price_sale": "130.000₫",
+        "price_origin": "265.000₫",
+        "percent_sale": "51%",
+        "evaluate_product": "44",
+        "quantity_sold": "43"
+      },
+      {
+        "id": "4",
+        "product_type": "hair caring",
+        "image": "../Assets//Image/Product_info/luoc_gap_gon.webp",
+        "name": "Lược gấp gọn tiện lợi",
+        "price_sale": "25.000₫",
+        "price_origin": "",
+        "percent_sale": "30%",
+        "evaluate_product": "25",
+        "quantity_sold": "38"
+      },
+      {
+        "id": "5",
+        "product_type": "hair styling",
+        "image": "../Assets//Image/Product_info/Gentle_Clay.webp",
+        "name": "Sáp Dưỡng Pomade - Gentle Clay",
+        "price_sale": "170.000₫",
+        "price_origin": "320.000₫",
+        "percent_sale": "47%",
+        "evaluate_product": "12",
+        "quantity_sold": "148"
+      },
+      {
+        "id": "6",
+        "product_type": "hair styling",
+        "image": "../Assets//Image/Product_info/perfect_night.webp",
+        "name": "Sáp Dưỡng Pomade - Perfect Night",
+        "price_sale": "170.000₫",
+        "price_origin": "320.000₫",
+        "percent_sale": "47%",
+        "evaluate_product": "53",
+        "quantity_sold": "128"
+      },
+      {
+        "id": "7",
+        "product_type": "hair styling",
+        "image": "../Assets//Image/Product_info/Tropical_wind.webp",
+        "name": "Sáp Dưỡng Pomade - Tropical Wind",
+        "price_sale": "170.000₫",
+        "price_origin": "320.000₫",
+        "percent_sale": "47%",
+        "evaluate_product": "16",
+        "quantity_sold": "80"
+      },
+      {
+        "id": "8",
+        "product_type": "hair caring",
+        "image": "../Assets//Image/Product_info/tinh_dau_duong_toc.webp",
+        "name": "Tinh dầu dưỡng tóc hương nước hoa Menitems 30ml",
+        "price_sale": "100.000₫",
+        "price_origin": "230.000₫",
+        "percent_sale": "57%",
+        "evaluate_product": "41",
+        "quantity_sold": "50"
+      },
+      {
+        "id": "9",
+        "product_type": "hair styling",
+        "image": "../Assets//Image/Product_info/xit_phong_toc.webp",
+        "name": "Xịt phồng tóc tạo kiểu Menitems 100ml",
+        "price_sale": "110.000₫",
+        "price_origin": "250.000₫",
+        "percent_sale": "56%",
+        "evaluate_product": "45",
+        "quantity_sold": "67"
+      }
+    ]
+  }
