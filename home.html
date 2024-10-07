@@ -587,18 +587,13 @@
 
 
         <div id="account_popup">
-            <div class="container account_popup-form">
-                <div class="row justify-content-center">
+            <div class="container account_popup-form" id="container" >
+                <div class="row justify-content-center form-container sign-up">
                     <form action="" class="col-md-6 bg-danger py-3 my-3">
                         <h1 class="text-center text-capitalize py-3">Register Account</h1>
                         <div class="form-group">
                             <label for="fullname" class="text-capitalize">Your Name: </label>
                             <input type="text" name="fullname" id="fullname" class="form-control">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="email" class="text-capitalize">Your Email: </label>
-                            <input type="text" name="email" id="email" class="form-control">
                         </div>
                 
                         <div class="form-group">
@@ -607,12 +602,59 @@
                         </div>
 
                         <div class="form-group">
+                            <label for="email" class="text-capitalize">Your Email: </label>
+                            <input type="text" name="email" id="email" class="form-control">
+                        </div>
+
+                        <div class="form-group">
                             <label for="password" class="text-capitalize">Your Password: </label>
                             <input type="password" name="password" id="password" class="form-control">
                         </div>
 
+                        <input class="btn btn-primary btn-block" type="submit" value="Create">
+
                     </form>
                 </div>
+
+                <div class="row justify-content-center form-container sign-up">
+                    <form action="" class="col-md-6 bg-danger py-3 my-3">
+                        <h1 class="text-center text-capitalize py-3">Sign-in Account</h1>
+
+                        <div class="form-group">
+                            <label for="email" class="text-capitalize">Your Email: </label>
+                            <input type="text" name="email" id="email" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password" class="text-capitalize">Your Password: </label>
+                            <input type="password" name="password" id="password" class="form-control">
+                        </div>
+
+                        <a href="#">Forget Your Password</a>
+
+                        <input id="login" class="btn btn-primary btn-block" type="submit" value="Sign in">
+
+                    </form>
+                </div>
+
+                <div class="toggle-container">
+                    <div class="toggle">
+                        <!-- ================= Welcome Back ================= -->
+                        <div class="toggle-panel toggle-left">
+                            <h1>Welcome Back!</h1>
+                            <p>Enter your personal details to use all of site features</p>
+                            <button class="hidden" id="login">Sign In</button>
+                        </div>
+
+                        <!-- ================= Hello, Friend ================= -->
+                        <div class="toggle-panel toggle-left">
+                            <h1>Hello, Friend</h1>
+                            <p>Register with your personal details to use all of site features</p>
+                            <button class="hidden" id="login">Register</button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
