@@ -32,3 +32,5 @@ mobileShowNavBar()
 // mobileShowNavBar()
 
 // console.log(typeof navBars)
+
+

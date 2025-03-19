@@ -612,11 +612,25 @@ li:hover > .pc_nav-active  {
 
 /* ======================= Form Login/Signup ====================== */
 
+.form-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    display: none;
+}
+
+.form-popup.open{
+    display: flex;
+}
+
 .container-fluid {
     position: relative;
-}
-.form-popup {
-    position: absolute;
 }
 
 .form-popup .container {
